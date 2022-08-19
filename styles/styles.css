@@ -1,0 +1,208 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.button-basic{
+    padding:0.7rem 2.7rem;
+    
+}
+.nav_button{
+    border-radius: 10px;
+    border:1px solid #fff;
+    background-color: transparent;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.nav_icon{
+    padding: 3vh 0px;
+    height: 12vh;
+    
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding:5px 20px;
+    color: white;
+}
+
+.colored_back{
+    background-color: #636c79;
+}
+
+.container_1{
+display: flex;
+justify-content: space-around;
+padding:10vh 4vw;
+}
+
+.container_img_wrapper{
+    margin-right:10vw;
+}
+
+.basic_image{
+    height:50vh;
+    width:30vw;
+}
+.cont_1_desc {
+    color: #fff;
+    margin:0px 2vw;
+}
+.cont_1_desc h1{
+    font-size: 3.5rem;
+}
+.cont_1_desc p{
+    margin-top:5vh;
+}
+.cont_1_desc form{
+    margin-top:5vh;
+    background-color: #fff;
+    border-radius: 5px;
+    padding:3px 20px;
+    display: inline-block;
+}
+.cont_1_desc input{
+    padding:10px;
+    padding-right: 10vw;
+    border:none;
+    
+}
+.cont_1_desc input::before{
+    content: url("../images/email-svgrepo-com\ \(3\).svg");
+}
+.form_button{
+background-color:#8bb7a2;
+border:none;
+}
+.container_counter h1{
+    text-align: center;
+    font-size: 3rem;
+    margin:4vh 30vw;
+}
+.counter_wrapper{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin-bottom:5vh;
+    }
+    .counter_number{
+        font-weight: 1000;
+        letter-spacing: 0.2rem;
+    }
+    .counter_number+p{
+        opacity: 0.7;
+    }
+    .main_image{
+        width:80vw;
+        height:70vh;
+        margin-left:10vw;
+        position: relative;
+        z-index:-1;
+    }
+    .play_but_img{
+        height:20vh;
+        position:relative;
+        top:-50vh;
+        left:40vw;
+    }
+    .top_heading{
+        text-align: center;
+        font-size:2rem;
+    }
+    .top_heading h1{
+        margin:10px 20vw;
+    }
+    .desc_wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin:10vh 5vw;
+    }
+    .content_wrapper{
+        margin:5vh 5vw;
+    }
+    .content_wrapper p{
+        margin:5vh 0px;
+        line-height: 1.5rem;
+    }
+    .image_wrapper img{
+        width:40vw;
+        height: 70vh;
+        margin:0px 1rem;
+    }
+    .cont_button{
+        border:none;
+        background-color:#8bb7a2;
+        color:white;
+    }
+    .emp_heading{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3vh;
+    }
+    .emp_heading h1{
+        margin:10px 5vw;
+    }
+    .emp_heading p{
+        margin:10px 5vw;
+    }
+    .emp_wrapper{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .emp_cards{
+        width:25%;
+    }
+    .emp_cards img{
+        height: 40vh;
+        width:20vw;
+    }
+    .emp_name{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-weight: 1000;
+    }
+    .emp_name+p{
+        opacity: 0.7;
+    }
+    .alone_button{
+        display: flex;
+        justify-content: center;
+        margin:5vh 0px;
+    }
+    footer{
+        background-color: #10181d;
+    }
+    .section_1{
+        display: flex;
+        justify-content: space-around;
+        padding:20px 0px;
+    }
+    .strike_line{
+        width:80%;
+        position: relative;
+        left:10vw;
+    }
+    .section_2{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        padding:10px 1rem;
+    }
+    ul{
+        list-style: none;
+    }
+    .active{
+        font-weight: 1000;
+    }
+    .list-item{
+        font-weight:lighter;
+    }
