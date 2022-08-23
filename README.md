@@ -12,7 +12,7 @@
 -   margin and padding
 -   footer element
  ## live link
- [LIVE LINK]("netlify")
+ [LIVE LINK]("https://collaborative.netlify.app/")
 
  # RESULT
  ## my Result
