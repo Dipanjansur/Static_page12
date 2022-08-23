@@ -206,3 +206,43 @@ border:none;
     .list-item{
         font-weight:lighter;
     }
+    @media  screen and (max-width:700px) {
+
+        nav ul{
+            flex-wrap: wrap;
+        }
+        .container_img_wrapper{
+            display: none;
+        }
+       .counter_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       } 
+       .image_wrapper{
+        display: none;
+       }
+       .desc_wrapper{
+        display: flex;
+        flex-direction: column;
+       }
+.emp_wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: center;
+}
+.emp_cards{
+    min-width:70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+       .section_2{
+        display: flex;
+        flex-direction: column;
+       
+       }
+       .section_2 ul{
+        border-bottom: 10px solid red;
+       }
+    }
